@@ -1,0 +1,104 @@
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.navbar {
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    color: #343a40;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #343a40;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+.navbar-nav .dropdown-menu {
+    background-color: #f8f9fa;
+}
+
+.dropdown-item {
+    color: #343a40;
+}
+
+.dropdown-item:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+h2 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+form {
+    width: 300px;
+    margin: auto;
+}
+
+label {
+    margin-top: 10px;
+    display: block;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+p.error {
+    color: red;
+    margin-top: 10px;
+}
+
+body.dashboard {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    position: fixed;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+    background-color: brown;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}

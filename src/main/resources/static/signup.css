@@ -1,0 +1,84 @@
+/* Global Styles */
+body {
+    background-color: #f8f9fa; /* Background color */
+}
+
+.container {
+    margin-top: 50px; /* Adjust top margin */
+}
+
+/* Signup Form Styles */
+.login-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.login-html {
+    width: 350px; /* Adjust form width */
+    padding: 20px;
+    background: #343a40; /* Form background color */
+    border-radius: 8px;
+}
+
+.login-form {
+    background-color: #343a40; /* Form background color */
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.sign-up-htm h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group-prepend {
+    width: 20%; /* Adjust input group width */
+}
+
+.input-group-text {
+    background-color: #495057; /* Input group text background color */
+    border: none;
+}
+
+.input {
+    background-color: #495057; /* Input background color */
+    border: none;
+    color: #fff; /* Input text color */
+}
+
+.input:focus {
+    box-shadow: none;
+}
+
+.button {
+    background-color: #007bff; /* Button background color */
+    border: none;
+    color: #fff; /* Button text color */
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Button background color on hover */
+}
+
+/* Footer Styles */
+.footer {
+    margin-top: 50px;
+    text-align: center;
+    background-color: #343a40; /* Footer background color */
+    padding: 20px 0;
+    color: #fff; /* Footer text color */
+    border-radius: 8px;
+}
+
+.footer a {
+    color: #fff; /* Footer link color */
+}
+
+.footer a:hover {
+    text-decoration: none;
+}
